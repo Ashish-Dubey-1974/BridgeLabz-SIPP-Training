@@ -29,5 +29,6 @@ public class multiDimensionalArrays {
             System.out.print(array[i] + " ");
         }
         System.out.println();
+        sc.close();
     }
 }

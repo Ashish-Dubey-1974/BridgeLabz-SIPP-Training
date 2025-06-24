@@ -15,5 +15,6 @@ public class multiplicationTable {
         for (int i = 6; i <= 9; i++) {
             System.out.println(number + " * " + i + " = " + multiplicationResult[i - 6]);
         }
+        sc.close();
     }
 }

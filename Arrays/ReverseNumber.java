@@ -6,7 +6,7 @@ public class ReverseNumber {
         int number = sc.nextInt();
         int temp = number;
         int count = 0;
-
+sc.close();
         while (temp > 0) {
             temp /= 10;
             count++;

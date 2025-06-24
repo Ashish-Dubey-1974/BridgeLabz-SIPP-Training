@@ -8,6 +8,7 @@ public class canVote {
         for(int i=0;i<10;i++) {
             age[i] = sc.nextInt();
         }
+        sc.close();
         for(int i=0;i<age.length;i++) {
             if(age[i] < 0) {
                 System.out.println("Invalid age");

@@ -6,7 +6,7 @@ public class oddEven {
 
         System.out.print("Enter a natural number: ");
         int number = sc.nextInt();
-
+        sc.close();
         if (number < 1) {
             System.out.println("Error: Please enter a natural number greater than 0.");
             return;

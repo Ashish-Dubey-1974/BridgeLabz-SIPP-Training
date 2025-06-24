@@ -25,5 +25,6 @@ public class multipleValues {
         }
         System.out.println();
         System.out.println("Sum of all numbers: " + total);
+        sc.close();
     }
 }

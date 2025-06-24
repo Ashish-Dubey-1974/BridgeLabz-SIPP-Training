@@ -7,7 +7,7 @@ public class totalBonus {
         int n = 10;
         double[] salary = new double[n];
         double[] bonus = new double[n];
-
+sc.close();
         double totalBonus = 0, totalOldSalary = 0, totalNewSalary = 0;
 
         for (int i = 0; i < n; i++) {

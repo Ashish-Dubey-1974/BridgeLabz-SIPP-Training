@@ -6,6 +6,7 @@ public class factors {
 
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
+        sc.close();
 
         int maxFactor = 10;
         int[] factors = new int[maxFactor];

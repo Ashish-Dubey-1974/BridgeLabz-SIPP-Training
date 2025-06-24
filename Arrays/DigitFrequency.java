@@ -10,7 +10,7 @@ public class DigitFrequency {
             digits[digit]++;
             number /= 10;
         }
-
+        sc.close();
         for (int i = 0; i < 10; i++) {
             if (digits[i] > 0) {
                 System.out.println("Digit " + i + ": " + digits[i]);

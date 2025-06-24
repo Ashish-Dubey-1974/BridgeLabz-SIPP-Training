@@ -14,6 +14,6 @@ public class meanHeight {
         }
         double mean = sum /11;
         System.out.println(mean);
-        
+        scanner.close();
     }
 }

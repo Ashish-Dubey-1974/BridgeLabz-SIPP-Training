@@ -8,6 +8,7 @@ public class fiveNumbers {
         for(int i=0;i<5;i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
         for(int i=0;i<arr.length;i++) {
             if(arr[i] > 0) {
                 if(arr[i] %2 == 0) {

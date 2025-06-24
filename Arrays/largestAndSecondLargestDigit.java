@@ -19,6 +19,7 @@ public class largestAndSecondLargestDigit {
 
         if (index == 0) {
             System.out.println("No digits to process.");
+            sc.close();
             return;
         }
         int largest = Integer.MIN_VALUE;
@@ -31,7 +32,6 @@ public class largestAndSecondLargestDigit {
                 secondLargest = digits[i];
             }
         }
-
         System.out.print("Digits: ");
         for (int i = 0; i < index; i++) {
             System.out.print(digits[i] + " ");
@@ -44,5 +44,6 @@ public class largestAndSecondLargestDigit {
         } else {
             System.out.println("Second largest digit not found.");
         }
+        sc.close();
     }
 }

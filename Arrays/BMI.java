@@ -11,7 +11,7 @@ public class BMI {
         double[] heights = new double[n];
         double[] bmi = new double[n];
         String[] status = new String[n];
-
+        scanner.close();
         for (int i = 0; i < n; i++) {
             System.out.println("Enter details for person " + (i + 1));
             System.out.print("Enter weight (in kg): ");
